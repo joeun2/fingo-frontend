@@ -175,9 +175,16 @@ let config = {
   /////////////////
   // 관찰 파일 경로 설정
   'watch': {
+<<<<<<< HEAD
     'html' : `${PATHS.src}/**/*.html`,
     'sass' : `${PATHS.src}/${PATHS.sass}/**/*.{sass,scss}`,
     'js'   : `${PATHS.src}/${PATHS.js}/**/*.{js,es6}`,
+=======
+    'html'       : `${PATHS.src}/**/*.html`,
+    'sass'       : `${PATHS.src}/${PATHS.sass}/**/*.{sass,scss}`,
+    'directives' : `${PATHS.src}/${PATHS.directives}/**/*.html`,
+    'js'         : `${PATHS.src}/${PATHS.js}/**/*.{js,es6}`,
+>>>>>>> b75f1573946bf7c557a930f3fe3e9204eb2402b6
   },
 
   /////////////////////

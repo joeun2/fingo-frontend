@@ -9,6 +9,10 @@ gulp.task('watch', ()=> {
 
   let watcher = {
     'html'    : gulp.watch(`${config.watch.html}`, ['html']),
+<<<<<<< HEAD
+=======
+    'directives' : gulp.watch(`${config.watch.directives}`, ['move-directives']),
+>>>>>>> b75f1573946bf7c557a930f3fe3e9204eb2402b6
     'sass'    : gulp.watch(`${config.watch.sass}`, ['sass']),
     'webpack' : gulp.watch(`${config.watch.js}`, ['webpack']),
   };
